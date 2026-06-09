@@ -38,7 +38,6 @@ def filter_high_alerts():
         print("Không tìm thấy cảnh báo nguy hiểm nào (ERROR/CRITICAL).")
 
 def mask_ip_addresses():
-    """Chức năng 3: Mã hóa địa chỉ IP (Masking) và hiển thị báo cáo an toàn"""
     print("\n--- MẠH HÓA IP ---")
     
     if not processed_logs:
